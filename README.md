@@ -31,15 +31,15 @@ pip install -r requirements.txt
 See [CONTRIBUTING](CONTRIBUTING.md).
 
 ## Contributors
-Jacob Aptekar
+Jacob Aptekar (Medidata Solutions)
 
-Mandis Beigi
+Mandis Beigi (Medidata Solutions)
 
-Pierre-Louis Bourlon
+Pierre-Louis Bourlon (Medidata Solutions)
 
-Jason Mezey
+Jason Mezey (Cornell University)
 
-Afrah Shafquat
+Afrah Shafquat (Medidata Solutions)
 
 
 ## Contact
