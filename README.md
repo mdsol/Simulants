@@ -32,9 +32,13 @@ See [CONTRIBUTING](CONTRIBUTING.md).
 
 ## Contributors
 Jacob Aptekar
+
 Mandis Beigi
+
 Pierre-Louis Bourlon
+
 Jason Mezey
+
 Afrah Shafquat
 
 
