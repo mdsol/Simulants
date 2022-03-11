@@ -13,7 +13,7 @@ num_cpus=1                             # number of CPUs to use
 ###############################################################################
 # Core Simulants synthesizer config parameters
 ###############################################################################
-anonymity_k = 1
+anonymity_k = 1                        # k-anonymity for the categorical attributes
 embedding_method = 'tsne'              # method for embedding; options: cca, ica, tsne, pca
 embedding_metric = 'gower'             # metric to use for tsne; options: gower, euclidean
 min_cluster_size = 5                   # minimum cluster size for knn
