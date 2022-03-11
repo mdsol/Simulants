@@ -1,0 +1,50 @@
+# This is your base factbook, please update all values in <>
+# Remove all the unnecesary extra comments from the file.
+
+# This YAML file starts starts with '---', which is the separator for YAML documents
+# within the same file. Learn more: https://yaml.org/spec/1.2/spec.html#id2800401
+# If your repository contains information about more than one component, you can use multiple
+# YAML documents in this same file to document each of them.
+# For instance you may have one API component and an UI component or multiple libraries as different components.
+---
+apiVersion: backstage.io/v1alpha1 # This is a constant, just leave as is.
+kind: Uninitialized # values: Uninitialized or Component. Use `Component` once this repository is past the initial commit.
+spec:
+  type: <choose a type> # web_backend == only API, web_frontend == only UI, web_fullstack == both, mobile == mobile app, library, other
+  lifecycle: experimental # values: experimental, production or deprecated. `production` means development towards production even if not in production yet.
+  owner: <team or person email>@mdsol.com
+metadata:
+  # Please look at the schema below for more information about how to write a factbook
+  json_schema: "https://github.com/mdsol/platform-standards/tree/master/schemas/v1alpha1.schema.json" # This is a constant, just leave as is.
+  name: <Name of this entity>  # Name of this entity. For instance: Plinth, RaveEDC, Astinus4J, etc.
+  description: <Description of this entity>
+#  aliases: ["", ""] # Add a list of extra names if this entity has other names
+# Uncomment and fill in the security section if this repository holds the codebase of a service.
+#  security:
+#    authentication: [mauth] # List all the authentication methods used in our service. See the json schema for options.
+#    network_accessiblity: [private] # `private` == internal vpn only, `public` == directly accesible outside the vpn
+#    data_types: [clinical] # List the type of data used in your service.
+  teams:
+    - name: <Team name>
+      number: <Team number>
+      email: <team email>@mdsol.com
+  people:
+    # An architect MUST be set among the people in this project.
+    # You can optionally add more people, for available roles see the "Person" schema in the JSON Schema linked above.
+    - role: architect
+      email: <architect>@mdsol.com
+  channels: # List all the places where we can find you. Mainly slack channels.
+    - url: https://mdsol.slack.com/messages/<room name>
+      automated_messaging: false
+      role: slack
+  pipelines: # Where is your CI running
+    - url: https://travis-ci.com/github/mdsol/<repository>
+      role: Integration
+  annotations:  # Anything extra, for instance links.
+    arc42: https://learn.mdsol.com/<path to arc42 docs>
+    docs: https://learn.mdsol.com/<path to other docs>
+    medistrano: https://medistrano.imedidata.net/projects/<project ID>
+    jira: https://jira.mdsol.com/secure/RapidBoard.jspa?rapidView=<board ID>
+    area: <choose an area> # valid values: platform, data_platform, data_science, product, other
+    # product: <name of product> uncomment this if this component is part of a bigger one, for instance it is a piece of Rave
+
