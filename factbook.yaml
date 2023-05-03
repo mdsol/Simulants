@@ -50,6 +50,6 @@ metadata:
     docs: https://github.com/mdsol/Simulants/wiki
     medistrano: https://medistrano.imedidata.net/projects/<project ID>
     jira: https://jira.mdsol.com/secure/RapidBoard.jspa?rapidView=2943
-    area: <choose an area> # valid values: platform, data_platform, data_science, product, other
+    #area: <choose an area> # valid values: platform, data_platform, data_science, product, other
     # product: <name of product> uncomment this if this component is part of a bigger one, for instance it is a piece of Rave
 
