@@ -16,7 +16,7 @@ spec:
 metadata:
   # Please look at the schema below for more information about how to write a factbook
   json_schema: "https://github.com/mdsol/platform-standards/tree/master/schemas/v1alpha1.schema.json" # This is a constant, just leave as is.
-  name: simulants  # Name of this entity. For instance: Plinth, RaveEDC, Astinus4J, etc.
+  name: simulants-public  # Name of this entity. For instance: Plinth, RaveEDC, Astinus4J, etc.
   description: Synthetic data generation for clinical trial data
 #  aliases: ["", ""] # Add a list of extra names if this entity has other names
 # Uncomment and fill in the security section if this repository holds the codebase of a service.
