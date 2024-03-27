@@ -12,7 +12,7 @@ kind: Component # values: Uninitialized or Component. Use `Component` once this 
 spec:
   type: library # web_backend == only API, web_frontend == only UI, web_fullstack == both, mobile == mobile app, library, other
   lifecycle: production # values: experimental, production or deprecated. `production` means development towards production even if not in production yet.
-  owner: mbeigi@mdsol.com, jiachen@mdsol.com, ashafquat@mdsol.com
+  owner: mbeigi@mdsol.com
 metadata:
   # Please look at the schema below for more information about how to write a factbook
   json_schema: "https://github.com/mdsol/platform-standards/tree/master/schemas/v1alpha1.schema.json" # This is a constant, just leave as is.
