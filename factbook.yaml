@@ -32,9 +32,9 @@ metadata:
     # An architect MUST be set among the people in this project.
     # You can optionally add more people, for available roles see the "Person" schema in the JSON Schema linked above.
     - role: technical owner
-      email: ashafquat@mdsol.com
-    - role: product owner
       email: mbeigi@mdsol.com
+    - role: product owner
+      email: jiachen@mdsol.com
 
   channels: # List all the places where we can find you. Mainly slack channels.
     - url: https://mdsol.slack.com/messages/simulants-development
