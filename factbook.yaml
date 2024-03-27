@@ -41,10 +41,6 @@ metadata:
       automated_messaging: true
       role: slack
 
-  pipelines: # Where is your CI running
-    - url: https://travis-ci.com/github/mdsol/<repository>
-      role: Integration
-
   annotations:  # Anything extra, for instance links.
     arc42: https://learn.mdsol.com/<path to arc42 docs>
     docs: https://github.com/mdsol/Simulants/wiki
